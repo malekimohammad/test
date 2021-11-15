@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IRANSans';
+}
+
+.bg-black {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/visual-stories-micheile-85hBm_YY2SI-unsplash.jpg');
+    background-size: cover;
+}
+
+.container-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/visual-stories-micheile-85hBm_YY2SI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+}
+
+.logo>h1>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    font-size: 16px;
+    margin-left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.add {
+    background: #d72631;
+    padding: 5px 13px;
+    border-radius: 5px;
+}
+
+.banner-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+    direction: rtl;
+}
+
+.content-banner {
+    width: 67%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    color: #fff;
+    font-size: 85px;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 20px 0 30px 0;
+}
+
+.banner-btn {
+    width: 180px;
+    color: #fff;
+    background-color: #d72631;
+    font-size: 14px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.row-card {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.image-card-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.8)), url('./images/isco-Rm8G0PUPHUg-unsplash.jpg');
+}
+
+.image-card-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.8)), url('./images/giorgio-trovato-PdtApuzR_IQ-unsplash.jpg');
+}
+
+.image-card-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.8)), url('./images/mana5280-RqDW1rBoqmU-unsplash.jpg');
+}
+
+.image-card-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.8)), url('./images/pascal-bernardon-u0SeiFn6hyw-unsplash.jpg');
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card>h5 {
+    position: absolute;
+    color: #fff;
+    bottom: 94px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card>p {
+    position: absolute;
+    color: #fff;
+    bottom: 7px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.add-input {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    align-items: center;
+}
+
+.add-container>input {
+    background-color: #252b30;
+    border: none;
+    padding: 8px 24px;
+    width: 60vh;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+}
+
+.ul-list {
+    width: 100%;
+}
+
+.ul-list>li {
+    display: flex;
+    margin: 23px auto;
+}
+
+.result-card {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.release-date {
+    margin: 15px 0;
+}
+
+.title-card,
+.release-date {
+    color: #252b30;
+}
+
+.content-card {
+    margin-left: 70px;
+}
+
+
+.content-card>button {
+    margin-right: 11px;
+    background-color: #d72631;
+    border: none;
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.content-card>button:hover {
+    background-color: #b21d26;
+}
+
+.image-card>img {
+    width: 100px;
+    border-radius: 3px;
+}
